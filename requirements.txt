@@ -1,0 +1,10 @@
+torch>=2.0
+torchvision>=0.15
+segmentation-models-pytorch>=0.3.3
+opencv-python
+scikit-image
+scikit-learn
+numpy
+matplotlib
+pandas
+tqdm
