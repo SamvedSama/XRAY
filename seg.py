@@ -39,19 +39,36 @@ def postprocess_mask(mask_tensor):
     return (mask > 0.5).astype(np.uint8)
 
 def save_comparison(original, pred, gt_path, save_path):
-    orig_resized = cv2.resize(original, (256, 256))
-    pred_color = (pred * 255).astype(np.uint8)
-    if pred_color.ndim == 2:
-        pred_color = cv2.cvtColor(pred_color, cv2.COLOR_GRAY2BGR)
+    """
+    Creates a side-by-side comparison of original, ground truth (if available), and predicted mask.
+    Works safely with grayscale or RGB images.
+    """
+    # Ensure prediction is in uint8 [0,255]
+    pred = (pred * 255).astype(np.uint8) if pred.max() <= 1 else pred.astype(np.uint8)
+
+    # Convert all to same size
+    orig_resized = cv2.resize(original, (pred.shape[1], pred.shape[0]))
+
+    # Ensure 3 channels for all
+    if len(orig_resized.shape) == 2:
+        orig_resized = cv2.cvtColor(orig_resized, cv2.COLOR_GRAY2BGR)
+
+    if len(pred.shape) == 2:
+        pred_color = cv2.applyColorMap(pred, cv2.COLORMAP_JET)
+    else:
+        pred_color = pred
 
     if gt_path and os.path.exists(gt_path):
         gt = cv2.imread(gt_path, cv2.IMREAD_GRAYSCALE)
-        gt = cv2.resize(gt, (256, 256))
-        gt_color = cv2.cvtColor(gt, cv2.COLOR_GRAY2BGR)
+        gt_resized = cv2.resize(gt, (pred.shape[1], pred.shape[0]))
+        gt_color = cv2.applyColorMap((gt_resized).astype(np.uint8), cv2.COLORMAP_JET)
         combined = np.hstack([orig_resized, gt_color, pred_color])
     else:
         combined = np.hstack([orig_resized, pred_color])
+
     cv2.imwrite(save_path, combined)
+
+
 
 
 # -------------------- Segmentation Models --------------------
