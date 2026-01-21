@@ -150,10 +150,10 @@ def save_comparison(img, gt_mask, pred_mask, title, save_path):
 # -------------------------------------------------
 # Run on Dataset
 # -------------------------------------------------
-# cxr_dir = "../data/COVIDQU/Lung Segmentation Data/Test/COVID-19/images"
-# mask_dir = "../data/COVIDQU/Lung Segmentation Data/Test/COVID-19/lung masks"
-cxr_dir = "JSRT/jsrt/cxr"
-mask_dir = "JSRT/jsrt/masks"
+cxr_dir = "../data/COVIDQU/Lung Segmentation Data/Test/COVID-19/images"
+mask_dir = "../data/COVIDQU/Lung Segmentation Data/Test/COVID-19/lung masks"
+# cxr_dir = "JSRT/jsrt/cxr"
+# mask_dir = "JSRT/jsrt/masks"
 
 output_dir = "outputs1"
 os.makedirs(output_dir, exist_ok=True)
