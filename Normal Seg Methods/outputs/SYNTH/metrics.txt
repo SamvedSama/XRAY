@@ -1,0 +1,5 @@
+=== METRICS FOR DATASET: SYNTH ===
+
+No Finding_generated_50.png: NO GT (Prediction saved)
+No Finding_generated_51.png: NO GT (Prediction saved)
+No Finding_generated_52.png: NO GT (Prediction saved)

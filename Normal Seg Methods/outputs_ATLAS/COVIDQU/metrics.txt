@@ -1,0 +1,12 @@
+=== METRICS FOR COVIDQU ===
+
+covid_10.png: DSC=0.3758, IoU=0.2314, HD95=135.20
+covid_1003.png: DSC=0.0000, IoU=0.0000, HD95=nan
+covid_1004.png: DSC=0.2696, IoU=0.1558, HD95=105.72
+covid_1005.png: DSC=0.2300, IoU=0.1300, HD95=327.70
+covid_1017.png: DSC=0.3716, IoU=0.2282, HD95=109.66
+
+--- AVERAGES ---
+Mean DSC: 0.2494
+Mean IoU: 0.1491
+Mean HD95: 169.57
