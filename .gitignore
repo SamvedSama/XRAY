@@ -1,3 +1,47 @@
-data
-Normal Seg Methods/JSRT
-Normal Seg Methods/Used
+# ==============================
+# Python Cache
+# ==============================
+__pycache__/
+*.pyc
+
+# ==============================
+# Virtual Environment
+# ==============================
+venv/
+
+# ==============================
+# Dataset (DeepLabV3+)
+# ==============================
+DL Methods/DeepLabV3+/Normalized Data/
+DL Methods/DeepLabV3+/Normalized Data.zip
+
+# ==============================
+# Any Other Normalized Data
+# ==============================
+Normal Seg Methods/Normalized Data/
+Normal Seg Methods/Normalized Data.zip
+
+# ==============================
+# Model Files (ALL CHECKPOINTS)
+# ==============================
+*.pth
+*.pt
+*.ckpt
+
+# ==============================
+# TensorBoard Logs
+# ==============================
+tensorboard_logs/
+
+# ==============================
+# Zip Files (Safety)
+# ==============================
+*.zip
+
+# ==============================
+# OS Junk
+# ==============================
+.DS_Store
+Thumbs.db
+
+structure.txt
