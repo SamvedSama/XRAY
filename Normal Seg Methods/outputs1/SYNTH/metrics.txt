@@ -1,5 +1,0 @@
-=== METRICS FOR SYNTH ===
-
-No Finding_generated_50.png: Prediction saved (No GT)
-No Finding_generated_51.png: Prediction saved (No GT)
-No Finding_generated_52.png: Prediction saved (No GT)
