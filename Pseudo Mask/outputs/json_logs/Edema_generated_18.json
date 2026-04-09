@@ -1,0 +1,14 @@
+{
+    "image_id": "Edema_generated_18",
+    "dice_pseudo": 0.9685506413564454,
+    "anatomical_score": 0.5312434358178255,
+    "final_score": 0.7498970385871355,
+    "metrics": {
+        "area_ratio": 0.19580459594726562,
+        "num_components": 2,
+        "balance_diff": 0.18985368894773133,
+        "height_ratio": 0.58984375,
+        "solidity": 1.0,
+        "smoothness": 2793640.1571231093
+    }
+}

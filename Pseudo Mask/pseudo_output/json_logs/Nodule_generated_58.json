@@ -1,0 +1,14 @@
+{
+    "image_id": "Nodule_generated_58",
+    "dice_pseudo": 0.9916830835880415,
+    "anatomical_score": 0.5545180726600677,
+    "final_score": 0.7731005781240545,
+    "metrics": {
+        "area_ratio": 0.21307754516601562,
+        "num_components": 2,
+        "balance_diff": 0.024329985498679787,
+        "height_ratio": 0.568359375,
+        "solidity": 1.0,
+        "smoothness": 2536153.112411598
+    }
+}

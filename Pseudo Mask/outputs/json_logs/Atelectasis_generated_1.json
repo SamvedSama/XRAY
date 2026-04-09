@@ -1,0 +1,14 @@
+{
+    "image_id": "Atelectasis_generated_1",
+    "dice_pseudo": 0.9791375786639775,
+    "anatomical_score": 0.5298207753163597,
+    "final_score": 0.7544791769901686,
+    "metrics": {
+        "area_ratio": 0.18837738037109375,
+        "num_components": 2,
+        "balance_diff": 0.07913814750312277,
+        "height_ratio": 0.478515625,
+        "solidity": 1.0,
+        "smoothness": 2421202.227531809
+    }
+}

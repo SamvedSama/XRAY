@@ -1,0 +1,14 @@
+{
+    "image_id": "Pleural_Thickening_generated_63",
+    "dice_pseudo": 0.9750465256480186,
+    "anatomical_score": 0.582293520165678,
+    "final_score": 0.7786700229068484,
+    "metrics": {
+        "area_ratio": 0.2919158935546875,
+        "num_components": 2,
+        "balance_diff": 0.10307877267261212,
+        "height_ratio": 0.744140625,
+        "solidity": 1.0,
+        "smoothness": 2952395.358318573
+    }
+}

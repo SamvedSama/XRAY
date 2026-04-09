@@ -1,0 +1,14 @@
+{
+    "image_id": "Emphysema_generated_27",
+    "dice_pseudo": 0.9887938859441157,
+    "anatomical_score": 0.5888433425700639,
+    "final_score": 0.7888186142570898,
+    "metrics": {
+        "area_ratio": 0.34058380126953125,
+        "num_components": 2,
+        "balance_diff": 0.0739454761317988,
+        "height_ratio": 0.69921875,
+        "solidity": 1.0,
+        "smoothness": 2579619.722900184
+    }
+}

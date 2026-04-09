@@ -1,0 +1,14 @@
+{
+    "image_id": "Pneumothorax_generated_71",
+    "dice_pseudo": 0.9780894313121687,
+    "anatomical_score": 0.0,
+    "final_score": 0.48904471565608437,
+    "metrics": {
+        "area_ratio": 0.18589401245117188,
+        "num_components": 2,
+        "balance_diff": 378542284658754.56,
+        "height_ratio": 0.63671875,
+        "solidity": 1.0,
+        "smoothness": 2934656.9375750683
+    }
+}

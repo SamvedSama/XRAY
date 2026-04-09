@@ -1,0 +1,14 @@
+{
+    "image_id": "Infiltration_generated_41",
+    "dice_pseudo": 0.9613159458359695,
+    "anatomical_score": 0.5513443803523679,
+    "final_score": 0.7563301630941687,
+    "metrics": {
+        "area_ratio": 0.18424606323242188,
+        "num_components": 2,
+        "balance_diff": 0.15836766806762909,
+        "height_ratio": 0.716796875,
+        "solidity": 1.0,
+        "smoothness": 3172188.464046218
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "image_id": "Mass_generated_47",
+    "dice_pseudo": 0.9803999571583013,
+    "anatomical_score": 0.5663864465236348,
+    "final_score": 0.773393201840968,
+    "metrics": {
+        "area_ratio": 0.24912261962890625,
+        "num_components": 2,
+        "balance_diff": 0.0952745536397735,
+        "height_ratio": 0.677734375,
+        "solidity": 1.0,
+        "smoothness": 2853916.0448499597
+    }
+}

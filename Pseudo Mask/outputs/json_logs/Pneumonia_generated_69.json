@@ -1,0 +1,14 @@
+{
+    "image_id": "Pneumonia_generated_69",
+    "dice_pseudo": 0.9505690504500547,
+    "anatomical_score": 0.0,
+    "final_score": 0.47528452522502734,
+    "metrics": {
+        "area_ratio": 0.19890594482421875,
+        "num_components": 2,
+        "balance_diff": 353778989561313.56,
+        "height_ratio": 0.6484375,
+        "solidity": 1.0,
+        "smoothness": 2764916.823769176
+    }
+}

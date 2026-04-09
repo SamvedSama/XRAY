@@ -1,0 +1,14 @@
+{
+    "image_id": "Hernia_generated_36",
+    "dice_pseudo": 0.9888579651774853,
+    "anatomical_score": 0.5488135011605737,
+    "final_score": 0.7688357331690294,
+    "metrics": {
+        "area_ratio": 0.20048904418945312,
+        "num_components": 2,
+        "balance_diff": 0.04107920923948455,
+        "height_ratio": 0.560546875,
+        "solidity": 1.0,
+        "smoothness": 2765235.8510754486
+    }
+}

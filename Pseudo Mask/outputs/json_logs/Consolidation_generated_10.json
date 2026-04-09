@@ -1,0 +1,14 @@
+{
+    "image_id": "Consolidation_generated_10",
+    "dice_pseudo": 0.95310115975613,
+    "anatomical_score": 0.5634134126782189,
+    "final_score": 0.7582572862171744,
+    "metrics": {
+        "area_ratio": 0.22291183471679688,
+        "num_components": 2,
+        "balance_diff": 0.022264054077175962,
+        "height_ratio": 0.6171875,
+        "solidity": 1.0,
+        "smoothness": 2774415.9497727775
+    }
+}

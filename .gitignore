@@ -1,47 +1,81 @@
 # ==============================
-# Python Cache
+# Python Cache / Build Files
 # ==============================
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
 
 # ==============================
-# Virtual Environment
+# Virtual Environments
 # ==============================
 venv/
+.venv/
+env/
+ENV/
+
+# Also ignore nested venvs anywhere
+**/venv/
+**/.venv/
 
 # ==============================
-# Dataset (DeepLabV3+)
+# Dataset Folders / Large Data
 # ==============================
 DL Methods/DeepLabV3+/Normalized Data/
-DL Methods/DeepLabV3+/Normalized Data.zip
+Comparisons/Normalized Data/
+Normal Seg Methods/Normalized Data/
 
 # ==============================
-# Any Other Normalized Data
+# Zipped Datasets / Archives
 # ==============================
-Normal Seg Methods/Normalized Data/
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Specific dataset zips
+DL Methods/DeepLabV3+/Normalized Data.zip
+Comparisons/Normalized Data.zip
 Normal Seg Methods/Normalized Data.zip
 
 # ==============================
-# Model Files (ALL CHECKPOINTS)
+# Model Weights / Checkpoints
 # ==============================
 *.pth
 *.pt
 *.ckpt
+*.onnx
+*.h5
+
+# Explicit checkpoint/weight folders
+**/checkpoints/
+**/weights/
 
 # ==============================
-# TensorBoard Logs
+# Training / Experiment Logs
 # ==============================
 tensorboard_logs/
+runs/
+wandb/
+
+# Ignore generated logs folders if you don't need them
+# (comment these out if you want to keep CSV logs)
+# **/logs/
 
 # ==============================
-# Zip Files (Safety)
-# ==============================
-*.zip
-
-# ==============================
-# OS Junk
+# OS / Editor Junk
 # ==============================
 .DS_Store
 Thumbs.db
+desktop.ini
 
+# VS Code / IDE
+.vscode/
+.idea/
+
+# ==============================
+# Misc Project Files
+# ==============================
 structure.txt

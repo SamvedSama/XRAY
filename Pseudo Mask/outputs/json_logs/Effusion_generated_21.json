@@ -1,0 +1,14 @@
+{
+    "image_id": "Effusion_generated_21",
+    "dice_pseudo": 0.9670848880985561,
+    "anatomical_score": 0.0,
+    "final_score": 0.48354244404927804,
+    "metrics": {
+        "area_ratio": 0.22632217407226562,
+        "num_components": 2,
+        "balance_diff": 310922888868958.5,
+        "height_ratio": 0.64453125,
+        "solidity": 1.0,
+        "smoothness": 2729149.523841169
+    }
+}

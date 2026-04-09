@@ -1,0 +1,14 @@
+{
+    "image_id": "No Finding_generated_53",
+    "dice_pseudo": 0.974080479163049,
+    "anatomical_score": 0.531204706446344,
+    "final_score": 0.7526425928046965,
+    "metrics": {
+        "area_ratio": 0.1841278076171875,
+        "num_components": 2,
+        "balance_diff": 0.12824231374821243,
+        "height_ratio": 0.54296875,
+        "solidity": 1.0,
+        "smoothness": 2747118.9939498743
+    }
+}

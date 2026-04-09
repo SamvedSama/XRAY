@@ -1,0 +1,14 @@
+{
+    "image_id": "Fibrosis_generated_33",
+    "dice_pseudo": 0.9755766891958761,
+    "anatomical_score": 0.599206819687627,
+    "final_score": 0.7873917544417516,
+    "metrics": {
+        "area_ratio": 0.389129638671875,
+        "num_components": 2,
+        "balance_diff": 0.1053054662379318,
+        "height_ratio": 0.7421875,
+        "solidity": 1.0,
+        "smoothness": 2483936.1314796405
+    }
+}
