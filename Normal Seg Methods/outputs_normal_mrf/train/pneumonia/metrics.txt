@@ -1,0 +1,70 @@
+=== METRICS: train/pneumonia ===
+
+Non_Covid_Pneumonia_1.bmp: DSC=0.0000, IoU=0.0000, Sens=0.0000, Spec=1.0000, MCC=0.0000, Kappa=0.0000, HD95=nan, NSD=nan
+Non_Covid_Pneumonia_10.bmp: DSC=0.3170, IoU=0.1884, Sens=0.1884, Spec=1.0000, MCC=0.4046, Kappa=0.2815, HD95=169.42, NSD=0.0498
+Non_Covid_Pneumonia_11.bmp: DSC=0.2176, IoU=0.1221, Sens=0.1221, Spec=1.0000, MCC=0.3208, Kappa=0.1866, HD95=275.98, NSD=0.0135
+Non_Covid_Pneumonia_12.bmp: DSC=0.2525, IoU=0.1445, Sens=0.1447, Spec=0.9997, MCC=0.3473, Kappa=0.2170, HD95=157.03, NSD=0.0814
+Non_Covid_Pneumonia_13.bmp: DSC=0.0461, IoU=0.0236, Sens=0.0236, Spec=1.0000, MCC=0.1402, Kappa=0.0385, HD95=319.62, NSD=0.0000
+Non_Covid_Pneumonia_14.bmp: DSC=0.0000, IoU=0.0000, Sens=0.0000, Spec=1.0000, MCC=0.0000, Kappa=0.0000, HD95=nan, NSD=nan
+Non_Covid_Pneumonia_15.bmp: DSC=0.3657, IoU=0.2238, Sens=0.2240, Spec=0.9998, MCC=0.4385, Kappa=0.3236, HD95=179.98, NSD=0.0374
+Non_Covid_Pneumonia_16.bmp: DSC=0.2806, IoU=0.1632, Sens=0.1632, Spec=1.0000, MCC=0.3671, Kappa=0.2375, HD95=166.71, NSD=0.0000
+Non_Covid_Pneumonia_17.bmp: DSC=0.1739, IoU=0.0952, Sens=0.0952, Spec=1.0000, MCC=0.2906, Kappa=0.1557, HD95=265.11, NSD=0.0000
+Non_Covid_Pneumonia_18.bmp: DSC=0.1179, IoU=0.0626, Sens=0.0626, Spec=1.0000, MCC=0.2260, Kappa=0.0972, HD95=297.26, NSD=0.0084
+Non_Covid_Pneumonia_19.bmp: DSC=0.2516, IoU=0.1439, Sens=0.1440, Spec=0.9999, MCC=0.3455, Kappa=0.2141, HD95=256.18, NSD=0.0258
+Non_Covid_Pneumonia_2.bmp: DSC=0.3938, IoU=0.2452, Sens=0.2452, Spec=1.0000, MCC=0.4555, Kappa=0.3436, HD95=205.90, NSD=0.0273
+Non_Covid_Pneumonia_20.bmp: DSC=0.3201, IoU=0.1906, Sens=0.1906, Spec=1.0000, MCC=0.3799, Kappa=0.2522, HD95=176.68, NSD=0.0246
+Non_Covid_Pneumonia_21.bmp: DSC=0.3350, IoU=0.2012, Sens=0.2012, Spec=1.0000, MCC=0.4271, Kappa=0.3085, HD95=228.90, NSD=0.0083
+Non_Covid_Pneumonia_22.bmp: DSC=0.4258, IoU=0.2705, Sens=0.2709, Spec=0.9997, MCC=0.4842, Kappa=0.3814, HD95=84.38, NSD=0.0415
+Non_Covid_Pneumonia_23.bmp: DSC=0.3403, IoU=0.2050, Sens=0.2050, Spec=1.0000, MCC=0.4256, Kappa=0.3067, HD95=220.95, NSD=0.0000
+Non_Covid_Pneumonia_24.bmp: DSC=0.3235, IoU=0.1930, Sens=0.1930, Spec=1.0000, MCC=0.3990, Kappa=0.2747, HD95=151.84, NSD=0.0000
+Non_Covid_Pneumonia_25.bmp: DSC=0.2887, IoU=0.1687, Sens=0.1687, Spec=1.0000, MCC=0.3689, Kappa=0.2397, HD95=245.25, NSD=0.0368
+Non_Covid_Pneumonia_26.bmp: DSC=0.2277, IoU=0.1285, Sens=0.1285, Spec=1.0000, MCC=0.3406, Kappa=0.2079, HD95=186.67, NSD=0.0063
+Non_Covid_Pneumonia_27.bmp: DSC=0.6843, IoU=0.5201, Sens=0.5213, Spec=0.9996, MCC=0.6957, Kappa=0.6535, HD95=59.50, NSD=0.1119
+Non_Covid_Pneumonia_28.bmp: DSC=0.2820, IoU=0.1642, Sens=0.1642, Spec=1.0000, MCC=0.3760, Kappa=0.2477, HD95=137.71, NSD=0.0097
+Non_Covid_Pneumonia_29.bmp: DSC=0.2326, IoU=0.1316, Sens=0.1316, Spec=1.0000, MCC=0.3358, Kappa=0.2027, HD95=268.13, NSD=0.0271
+Non_Covid_Pneumonia_3.bmp: DSC=0.3400, IoU=0.2048, Sens=0.2051, Spec=0.9998, MCC=0.4302, Kappa=0.3139, HD95=236.11, NSD=0.1295
+Non_Covid_Pneumonia_30.bmp: DSC=0.7770, IoU=0.6353, Sens=0.6577, Spec=0.9939, MCC=0.7628, Kappa=0.7464, HD95=41.77, NSD=0.1129
+Non_Covid_Pneumonia_31.bmp: DSC=0.4271, IoU=0.2716, Sens=0.2720, Spec=0.9997, MCC=0.4852, Kappa=0.3826, HD95=82.40, NSD=0.0418
+Non_Covid_Pneumonia_32.bmp: DSC=0.7444, IoU=0.5928, Sens=0.6069, Spec=0.9958, MCC=0.7355, Kappa=0.7110, HD95=45.99, NSD=0.1099
+Non_Covid_Pneumonia_33.bmp: DSC=0.3162, IoU=0.1878, Sens=0.1880, Spec=0.9998, MCC=0.4024, Kappa=0.2799, HD95=233.00, NSD=0.0919
+Non_Covid_Pneumonia_34.bmp: DSC=0.7213, IoU=0.5641, Sens=0.5652, Spec=0.9997, MCC=0.7271, Kappa=0.6926, HD95=51.57, NSD=0.1176
+Non_Covid_Pneumonia_35.bmp: DSC=0.0000, IoU=0.0000, Sens=0.0000, Spec=1.0000, MCC=0.0000, Kappa=0.0000, HD95=nan, NSD=nan
+Non_Covid_Pneumonia_36.bmp: DSC=0.7770, IoU=0.6353, Sens=0.6577, Spec=0.9939, MCC=0.7628, Kappa=0.7464, HD95=41.77, NSD=0.1129
+Non_Covid_Pneumonia_37.bmp: DSC=0.3589, IoU=0.2187, Sens=0.2187, Spec=1.0000, MCC=0.4393, Kappa=0.3237, HD95=194.04, NSD=0.0336
+Non_Covid_Pneumonia_38.bmp: DSC=0.1950, IoU=0.1081, Sens=0.1081, Spec=0.9999, MCC=0.2855, Kappa=0.1510, HD95=171.81, NSD=0.0374
+Non_Covid_Pneumonia_39.bmp: DSC=0.3074, IoU=0.1816, Sens=0.1816, Spec=1.0000, MCC=0.3955, Kappa=0.2705, HD95=218.82, NSD=0.0105
+Non_Covid_Pneumonia_4.bmp: DSC=0.0942, IoU=0.0494, Sens=0.0494, Spec=1.0000, MCC=0.2040, Kappa=0.0799, HD95=285.54, NSD=0.0000
+Non_Covid_Pneumonia_40.bmp: DSC=0.7444, IoU=0.5928, Sens=0.6069, Spec=0.9958, MCC=0.7355, Kappa=0.7110, HD95=45.99, NSD=0.1099
+Non_Covid_Pneumonia_41.bmp: DSC=0.0000, IoU=0.0000, Sens=0.0000, Spec=1.0000, MCC=0.0000, Kappa=0.0000, HD95=nan, NSD=nan
+Non_Covid_Pneumonia_42.bmp: DSC=0.1966, IoU=0.1090, Sens=0.1090, Spec=1.0000, MCC=0.3013, Kappa=0.1664, HD95=167.39, NSD=0.0282
+Non_Covid_Pneumonia_43.bmp: DSC=0.3566, IoU=0.2170, Sens=0.2170, Spec=1.0000, MCC=0.4344, Kappa=0.3175, HD95=139.10, NSD=0.0257
+Non_Covid_Pneumonia_44.bmp: DSC=0.2352, IoU=0.1333, Sens=0.1333, Spec=1.0000, MCC=0.3396, Kappa=0.2069, HD95=166.27, NSD=0.0000
+Non_Covid_Pneumonia_45.bmp: DSC=0.3324, IoU=0.1993, Sens=0.2007, Spec=0.9978, MCC=0.3876, Kappa=0.2697, HD95=264.17, NSD=0.0859
+Non_Covid_Pneumonia_46.bmp: DSC=0.8737, IoU=0.7757, Sens=0.8016, Spec=0.9923, MCC=0.8528, Kappa=0.8478, HD95=29.07, NSD=0.1485
+Non_Covid_Pneumonia_47.bmp: DSC=0.7770, IoU=0.6353, Sens=0.6577, Spec=0.9939, MCC=0.7628, Kappa=0.7464, HD95=41.77, NSD=0.1129
+Non_Covid_Pneumonia_48.bmp: DSC=0.6123, IoU=0.4412, Sens=0.4421, Spec=0.9997, MCC=0.6368, Kappa=0.5782, HD95=77.00, NSD=0.1478
+Non_Covid_Pneumonia_49.bmp: DSC=0.6686, IoU=0.5022, Sens=0.5041, Spec=0.9993, MCC=0.6774, Kappa=0.6311, HD95=78.28, NSD=0.1877
+Non_Covid_Pneumonia_5.bmp: DSC=0.4891, IoU=0.3237, Sens=0.9633, Spec=0.7607, MCC=0.4828, Kappa=0.3909, HD95=116.99, NSD=0.0455
+Non_Covid_Pneumonia_50.bmp: DSC=0.3209, IoU=0.1911, Sens=0.1911, Spec=1.0000, MCC=0.4045, Kappa=0.2813, HD95=191.57, NSD=0.0000
+Non_Covid_Pneumonia_51.bmp: DSC=0.1155, IoU=0.0613, Sens=0.0613, Spec=1.0000, MCC=0.2254, Kappa=0.0967, HD95=291.42, NSD=0.0000
+Non_Covid_Pneumonia_52.bmp: DSC=0.2663, IoU=0.1536, Sens=0.1536, Spec=1.0000, MCC=0.3639, Kappa=0.2339, HD95=185.94, NSD=0.0259
+Non_Covid_Pneumonia_53.bmp: DSC=0.2786, IoU=0.1618, Sens=0.1618, Spec=1.0000, MCC=0.3757, Kappa=0.2474, HD95=243.50, NSD=0.0000
+Non_Covid_Pneumonia_54.bmp: DSC=0.1390, IoU=0.0747, Sens=0.0747, Spec=1.0000, MCC=0.2525, Kappa=0.1199, HD95=269.74, NSD=0.0062
+Non_Covid_Pneumonia_55.bmp: DSC=0.4050, IoU=0.2539, Sens=0.2540, Spec=1.0000, MCC=0.4643, Kappa=0.3549, HD95=268.15, NSD=0.0874
+Non_Covid_Pneumonia_56.bmp: DSC=0.2186, IoU=0.1227, Sens=0.1231, Spec=0.9990, MCC=0.3000, Kappa=0.1693, HD95=243.31, NSD=0.0844
+Non_Covid_Pneumonia_57.bmp: DSC=0.4884, IoU=0.3231, Sens=0.9815, Spec=0.7535, MCC=0.4865, Kappa=0.3894, HD95=129.00, NSD=0.0428
+Non_Covid_Pneumonia_58.bmp: DSC=0.2215, IoU=0.1246, Sens=0.1248, Spec=0.9997, MCC=0.3224, Kappa=0.1909, HD95=272.39, NSD=0.0185
+Non_Covid_Pneumonia_59.bmp: DSC=0.3114, IoU=0.1844, Sens=0.1845, Spec=1.0000, MCC=0.4021, Kappa=0.2785, HD95=180.33, NSD=0.0353
+Non_Covid_Pneumonia_7.bmp: DSC=0.2482, IoU=0.1417, Sens=0.1417, Spec=1.0000, MCC=0.3336, Kappa=0.2003, HD95=218.01, NSD=0.0000
+Non_Covid_Pneumonia_8.bmp: DSC=0.6166, IoU=0.4457, Sens=0.4599, Spec=0.9953, MCC=0.6259, Kappa=0.5809, HD95=97.08, NSD=0.1575
+Non_Covid_Pneumonia_9.bmp: DSC=0.3938, IoU=0.2452, Sens=0.2452, Spec=1.0000, MCC=0.4555, Kappa=0.3437, HD95=205.34, NSD=0.0271
+
+--- AVERAGE METRICS ---
+  Mean DSC  : 0.3491 (n=58)
+  Mean IoU  : 0.2353 (n=58)
+  Mean Sens : 0.2602 (n=58)
+  Mean Spec : 0.9908 (n=58)
+  Mean MCC  : 0.4107 (n=58)
+  Mean Kappa: 0.3142 (n=58)
+  Mean HD95 : 177.3673 (n=58)
+  Mean NSD  : 0.0497 (n=58)

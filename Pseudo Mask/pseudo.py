@@ -92,37 +92,45 @@ def compute_metrics(mask):
     total_pixels = mask.size
     lung_pixels = mask.sum()
 
-    # Area
-    area_ratio = lung_pixels / total_pixels
+    # -------------------------
+    # Area Ratio
+    # -------------------------
+    area_ratio = lung_pixels / (total_pixels + 1e-8)
     metrics["area_ratio"] = float(area_ratio)
 
+    # -------------------------
     # Components
+    # -------------------------
     labeled = label(mask)
-    num_components = len(regionprops(labeled))
+    regions = regionprops(labeled)
+    num_components = len(regions)
     metrics["num_components"] = int(num_components)
 
-    # Balance
+    # -------------------------
+    # Balance (Symmetry)
+    # -------------------------
     h, w = mask.shape
     left = mask[:, :w//2].sum()
     right = mask[:, w//2:].sum()
-    balance = abs(left - right) / (left + right + 1e-8)
-    metrics["balance_diff"] = float(balance)
+    balance_diff = abs(left - right) / (left + right + 1e-8)
+    metrics["balance_diff"] = float(balance_diff)
 
-    # Height
+    # -------------------------
+    # Height Ratio
+    # -------------------------
     ys, xs = np.where(mask > 0)
     if len(ys) > 0:
         height_ratio = (ys.max() - ys.min()) / h
     else:
-        height_ratio = 0
+        height_ratio = 0.0
     metrics["height_ratio"] = float(height_ratio)
 
-    # Solidity
-    solidity = 1.0 if num_components <= 2 else 0.5
-    metrics["solidity"] = float(solidity)
-
-    # Smoothness proxy
-    perimeter = cv2.Canny(mask.astype(np.uint8)*255, 50, 150).sum()
-    smoothness = (perimeter**2) / (lung_pixels + 1e-8)
+    # -------------------------
+    # Smoothness (Boundary Irregularity)
+    # -------------------------
+    edges = cv2.Canny(mask.astype(np.uint8) * 255, 50, 150)
+    perimeter = edges.sum()
+    smoothness = (perimeter ** 2) / (lung_pixels + 1e-8)
     metrics["smoothness"] = float(smoothness)
 
     return metrics
@@ -132,22 +140,51 @@ def compute_metrics(mask):
 # ANATOMICAL SCORE
 # =========================================================
 def anatomical_score(metrics):
-    # Simple normalized scoring (you can improve with priors)
+    
+    # Expected values (can be tuned from real dataset)
+    A_expected = 0.30
+    H_expected = 0.75
 
-    area = metrics["area_ratio"]
-    comp = 1.0 if metrics["num_components"] == 2 else 0.5
+    # -------------------------
+    # Area Score
+    # -------------------------
+    area = 1 - abs(metrics["area_ratio"] - A_expected)
+
+    # -------------------------
+    # Component Score
+    # -------------------------
+    n = metrics["num_components"]
+    if n == 2:
+        comp = 1.0
+    elif n == 1:
+        comp = 0.8
+    else:
+        comp = 0.4
+
+    # -------------------------
+    # Balance Score
+    # -------------------------
     balance = 1 - metrics["balance_diff"]
-    height = metrics["height_ratio"]
-    solidity = metrics["solidity"]
+
+    # -------------------------
+    # Height Score
+    # -------------------------
+    height = 1 - abs(metrics["height_ratio"] - H_expected)
+
+    # -------------------------
+    # Smoothness Score
+    # -------------------------
     smooth = np.exp(-metrics["smoothness"] / 50)
 
+    # -------------------------
+    # Weights (normalized)
+    # -------------------------
     weights = {
-        "area": 0.18,
-        "comp": 0.18,
-        "balance": 0.14,
-        "height": 0.14,
-        "solidity": 0.12,
-        "smooth": 0.12
+        "area": 0.22,
+        "comp": 0.22,
+        "balance": 0.18,
+        "height": 0.18,
+        "smooth": 0.20
     }
 
     score = (
@@ -155,7 +192,6 @@ def anatomical_score(metrics):
         weights["comp"] * comp +
         weights["balance"] * balance +
         weights["height"] * height +
-        weights["solidity"] * solidity +
         weights["smooth"] * smooth
     )
 

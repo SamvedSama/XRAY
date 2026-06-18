@@ -4,11 +4,10 @@
     "anatomical_score": 0.0,
     "final_score": 0.4836468850336971,
     "metrics": {
-        "area_ratio": 0.15407943725585938,
+        "area_ratio": 0.1540794372558535,
         "num_components": 2,
         "balance_diff": 456704317142556.1,
         "height_ratio": 0.462890625,
-        "solidity": 1.0,
         "smoothness": 2535614.385010885
     }
 }

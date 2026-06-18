@@ -1,14 +1,13 @@
 {
     "image_id": "Cardiomegaly_generated_7",
     "dice_pseudo": 0.9722043184014164,
-    "anatomical_score": 0.519771644139036,
-    "final_score": 0.7459879812702261,
+    "anatomical_score": 0.699952039953313,
+    "final_score": 0.8360781791773647,
     "metrics": {
-        "area_ratio": 0.1410064697265625,
+        "area_ratio": 0.14100646972655712,
         "num_components": 2,
         "balance_diff": 0.17790282436960886,
         "height_ratio": 0.56640625,
-        "solidity": 1.0,
         "smoothness": 2614019.424980356
     }
 }
