@@ -1,0 +1,157 @@
+============================================================
+  GLOBAL SUMMARY — Edge Detection Lung Segmentation
+============================================================
+
+
+  [test/covid19]  (n=88)
+    DSC   : 0.7770
+    IoU   : 0.6735
+    Sens  : 0.7031
+    Spec  : 0.9848
+    MCC   : 0.7453
+    Kappa : 0.7337
+    HD95  : 29.3514
+    NSD   : 0.3249
+
+  [test/normal]  (n=88)
+    DSC   : 0.7026
+    IoU   : 0.5791
+    Sens  : 0.6059
+    Spec  : 0.9815
+    MCC   : 0.6784
+    Kappa : 0.6456
+    HD95  : 42.7604
+    NSD   : 0.2880
+  test/synth: no GT masks
+
+  [test/tb]  (n=132)
+    DSC   : 0.5668
+    IoU   : 0.4473
+    Sens  : 0.4602
+    Spec  : 0.9930
+    MCC   : 0.5627
+    Kappa : 0.5090
+    HD95  : 57.2021
+    NSD   : 0.2137
+
+  [train/covid-19]  (n=176)
+    DSC   : 0.6371
+    IoU   : 0.5176
+    Sens  : 0.5477
+    Spec  : 0.9813
+    MCC   : 0.6149
+    Kappa : 0.5842
+    HD95  : 48.5358
+    NSD   : 0.2370
+
+  [train/indiana]  (n=55)
+    DSC   : 0.7301
+    IoU   : 0.5904
+    Sens  : 0.6780
+    Spec  : 0.9499
+    MCC   : 0.6694
+    Kappa : 0.6571
+    HD95  : 33.5704
+    NSD   : 0.2550
+
+  [train/jsrt]  (n=176)
+    DSC   : 0.7166
+    IoU   : 0.6043
+    Sens  : 0.6327
+    Spec  : 0.9792
+    MCC   : 0.6717
+    Kappa : 0.6511
+    HD95  : 45.2718
+    NSD   : 0.2521
+
+  [train/normal]  (n=176)
+    DSC   : 0.7398
+    IoU   : 0.6309
+    Sens  : 0.6588
+    Spec  : 0.9846
+    MCC   : 0.7079
+    Kappa : 0.6889
+    HD95  : 35.0251
+    NSD   : 0.2970
+
+  [train/pneumonia]  (n=58)
+    DSC   : 0.6403
+    IoU   : 0.4851
+    Sens  : 0.5161
+    Spec  : 0.9824
+    MCC   : 0.6503
+    Kappa : 0.5961
+    HD95  : 36.7069
+    NSD   : 0.1811
+
+  [train/tb]  (n=215)
+    DSC   : 0.5650
+    IoU   : 0.4421
+    Sens  : 0.4529
+    Spec  : 0.9921
+    MCC   : 0.5577
+    Kappa : 0.5050
+    HD95  : 58.7079
+    NSD   : 0.1861
+
+  [val/covid19]  (n=88)
+    DSC   : 0.7535
+    IoU   : 0.6436
+    Sens  : 0.6766
+    Spec  : 0.9838
+    MCC   : 0.7274
+    Kappa : 0.7065
+    HD95  : 33.5933
+    NSD   : 0.3135
+
+  [val/jsrt]  (n=71)
+    DSC   : 0.7470
+    IoU   : 0.6328
+    Sens  : 0.6680
+    Spec  : 0.9772
+    MCC   : 0.7001
+    Kappa : 0.6817
+    HD95  : 40.9804
+    NSD   : 0.2645
+
+  [val/normal]  (n=88)
+    DSC   : 0.7742
+    IoU   : 0.6653
+    Sens  : 0.7017
+    Spec  : 0.9824
+    MCC   : 0.7426
+    Kappa : 0.7269
+    HD95  : 30.9530
+    NSD   : 0.3220
+
+  [val/pneumonia]  (n=53)
+    DSC   : 0.6488
+    IoU   : 0.4949
+    Sens  : 0.5302
+    Spec  : 0.9803
+    MCC   : 0.6571
+    Kappa : 0.6056
+    HD95  : 33.6472
+    NSD   : 0.1966
+
+  [val/tb]  (n=132)
+    DSC   : 0.6038
+    IoU   : 0.4813
+    Sens  : 0.4933
+    Spec  : 0.9915
+    MCC   : 0.5877
+    Kappa : 0.5433
+    HD95  : 55.0028
+    NSD   : 0.2161
+
+============================================================
+  OVERALL MEAN (all categories with GT)
+============================================================
+  DSC   : 0.6728  (n=1596)
+  IoU   : 0.5534  (n=1596)
+  Sens  : 0.5803  (n=1596)
+  Spec  : 0.9838  (n=1596)
+  MCC   : 0.6494  (n=1596)
+  Kappa : 0.6171  (n=1596)
+  HD95  : 44.2263  (n=1596)
+  NSD   : 0.2501  (n=1596)
